@@ -78,7 +78,7 @@ namespace ChallengesWithTestsMark8.Tests
         public void ChangeBusinessNameTo_TrueCoders(string originalBusinessName)
         {
             // Arrange
-            ChallengesSet04 challenger = new ChallengesSet04();
+            ChallengesSet04 challenger  = new ChallengesSet04();
             Business business = new Business() { Name = originalBusinessName };
 
             // Act
